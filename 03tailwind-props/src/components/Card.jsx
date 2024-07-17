@@ -2,7 +2,6 @@ import React from 'react'
 
 function Card({username, btntxt = "Visit Me", someObj}) { // here recieving props by using destructuring, we can also use by writting "props" and then call like props.username, props.name
     console.log(username)
-    console.log(name)
     console.log(someObj)
 
   return (
